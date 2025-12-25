@@ -1,8 +1,6 @@
 // 変数numに1以上の正の数を代入する
 let num = Math.floor(Math.random()*15)+1;
 
-// 変数numの値を出力する
-console.log(num);
 
 // 変数numの値が3と5の倍数の場合は「3と5のの倍数です」という文字列を出力する
 if (num % 3 === 0 && num % 5 === 0){
